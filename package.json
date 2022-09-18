@@ -1,0 +1,17 @@
+{
+  "name": "Automatic Electron Project Maker",
+  "version": "1.0.0",
+  "description": "A simple automatic electron project maker application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "homepage": "https://github.com/TheRealYT/AutomaticElectronProjectMaker",
+  "author": "Yonathan Tesfaye",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}

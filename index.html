@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta content="default-src 'self'; script-src 'self';" http-equiv="Content-Security-Policy">
+        <link href="./styles.css" rel="stylesheet">
+        <title>Create Project</title>
+    </head>
+
+    <body>
+        <h1>Hello World!</h1>
+        <div>
+            We are using Node.js <span id="node-version"></span>,
+            Chromium <span id="chrome-version"></span>,
+            and Electron <span id="electron-version"></span>.
+        </div>
+        <form id="proj">
+            <input type="text" name="ProjectName" id="ProjectName" placeholder="Project Name" required>
+            <input type="text" name="Version" id="Version" placeholder="Version" required>
+            <input type="text" name="Description" id="Description" placeholder="Description" required>
+            <input type="url" name="Url" id="Url" placeholder="Url" required>
+            <input type="text" name="Author" id="Author" placeholder="Author" required>
+            <input type="text" name="License" id="License" placeholder="License" required>
+
+			<div class="center">
+				<button type="submit">Create Project</button>
+			</div>
+        </form>
+        <script src="./renderer.js"></script>
+    </body>
+
+</html>
